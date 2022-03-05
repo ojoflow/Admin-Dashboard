@@ -151,10 +151,13 @@ main {
     grid-template-rows: repeat(2,1fr);
     padding: 18px;
     grid-gap: 20px;
-    background-color: #9e96b4;
+    background-color: #dfbacf;
 }
 .container {
     height: 100%;
+}
+.container-side {
+    gap:10px;
 }
 h3 {
     text-align: left;
@@ -181,4 +184,23 @@ h3 {
    justify-content: end;
    gap:20px;
 }
+.announcements {
+    display: grid;
+    grid-gap: 1rem;
+    background-color: #928f97;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 1rem rgba(30, 58, 138, 0.2);
+    padding: 1rem;
+   
+}
+.trending {
+    margin-top: 2rem;
+    display: grid;
+    grid-gap: 0.5rem;
+    background-color: #928f97;
+    box-shadow: 5px 5px 1rem rgba(30, 58, 138, 0.2);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
 /* MAIN CSS ENDS */
